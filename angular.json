@@ -24,7 +24,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/font-awesome/css/font-awesome.css"
+
             ],
             "scripts": []
           },
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "alurapic"
+    }
+  },
+  "defaultProject": "alurapic",
+  "cli": {
+    "analytics": "d2f4d81d-2586-4970-a9c3-2cc10543a3c8"
+  }
 }
